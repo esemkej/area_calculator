@@ -19,7 +19,7 @@ class SoilErosionUI(QMainWindow):
         self.qimage = None
         self.picked_color = None
         self.tool_mode = None
-        self.debug = True
+        self.debug = False
         self.sensitivity = 100
         self.anchors = []
         self.temp_mouse_pos = None
@@ -739,3 +739,4 @@ if __name__ == "__main__":
     window = SoilErosionUI()
     window.show()
     sys.exit(app.exec_())
+
