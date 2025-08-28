@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.3-beta
+- **Second Auto Layer (Transient):** Independent color pick and sensitivity/strict settings; computed without overlapping the highlight layer.
+- **Area Panel:** Four values — Highlight, Manual, Transient, Combined (shown after calculation).
+- **Comparison View:** Side-by-side original and processed images; equal-width resizing.
+- **Strict Mode Improvements:** Morphology and connected components used to drop speckle and thin lines; tunable level.
+- **Settings Persistence:** Saves line width, preview line width, anchor radius, font size, and quick-settings visibility.
+- **Performance/UX:** Cached overlays with short repaint delay; more consistent resizing and layer toggles.
+- **Bug Fix:** Resolved an issue where the line disappeared after closing the polygon.
+
 ## v0.2-beta
 - **Strict Mode**: Cluster-based filter that ignores isolated pixels and thin lines; keeps only larger contiguous regions. Strictness level is adjustable.
 - **Manual Mode**: Add highlight patches manually with adjustable **radius**, **sensitivity**, and **strictness**, with live preview.
